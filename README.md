@@ -1,4 +1,11 @@
-# manifesto.eegg.gallery
+# manifesto.eegg.foundation
+
+## Local development
+
+```sh
+npm install
+npm run dev
+```
 
 ## Production build
 
@@ -6,5 +13,3 @@
 npm install
 npm run build
 ```
-
-The distribution folder is `public`. Once built, deploy the `public` folder where the site is hosted.
