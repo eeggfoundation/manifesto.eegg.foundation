@@ -2,7 +2,8 @@
 
 module.exports = {
     content: [
-        './public/**/*.{html,js}',
+        './index.html',
+        './src/**/*.{js,ts,jsx,tsx}',
     ],
     theme: {
         container: {
@@ -12,8 +13,12 @@ module.exports = {
 			// ...
 		},
 		fontFamily: {
-			sans: ['Barlow', 'sans-serif'],
-		},
+            sans: ['IBM Plex Sans', 'sans-serif'],
+        },
+        fontWeight: {
+            normal: 400,
+            bold: 600,
+        },
     },
     plugins: [
         require('@tailwindcss/typography'),
